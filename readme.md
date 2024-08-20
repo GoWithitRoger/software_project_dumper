@@ -1,6 +1,6 @@
 # Python Project Analyzer (Node.js version)
 
-This tool analyzes Python projects and generates a comprehensive report of the project structure, dependencies, and code metrics.
+This tool works in a Python (for now) project folder and collects reelvant code and context, then dumps it into a txt file. This is useful for providing to an LLM.
 
 ## Prerequisites
 
