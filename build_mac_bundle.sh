@@ -12,7 +12,7 @@ fi
 
 # Package the Node.js script
 echo "Packaging Node.js script..."
-pkg python-dumper-script.js --targets node16-macos-x64 --output python-project-dumper --no-bytecode --public-packages "*" --options experimental-modules
+pkg python-dumper-script.js --targets node16-macos-x64 --output python-project-dumper --public-packages "*" --options experimental-modules
 
 # Create the Application Bundle structure
 echo "Creating Application Bundle structure..."
