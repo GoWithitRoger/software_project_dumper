@@ -1,0 +1,25 @@
+{
+  "name": "python-project-analyzer",
+  "version": "1.0.0",
+  "description": "A tool to analyze Python projects and generate a summary",
+  "main": "full-updated-nodejs-script.js",
+  "type": "module",
+  "scripts": {
+    "start": "node full-updated-nodejs-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "python",
+    "analysis",
+    "project",
+    "summary"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^8.8.2",
+    "acorn-walk": "^8.2.0",
+    "commander": "^10.0.0",
+    "ignore": "^5.2.4"
+  }
+}
