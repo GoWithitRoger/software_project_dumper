@@ -2,10 +2,10 @@
   "name": "python-project-analyzer",
   "version": "1.0.0",
   "description": "A tool to analyze Python projects and generate a summary",
-  "main": "full-updated-nodejs-script.js",
+  "main": "python-dumper-script.js",
   "type": "module",
   "scripts": {
-    "start": "node full-updated-nodejs-script.js",
+    "start": "node python-dumper-script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
