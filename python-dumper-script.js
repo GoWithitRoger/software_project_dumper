@@ -212,7 +212,7 @@ function generateOutput(analysisResult) {
     return output;
 }
 
-async function main() {
+export async function main() {
     program
         .option('-d, --max-depth <number>', 'Maximum depth for folder tree', parseInt, 3)
         .option('-o, --output <filename>', 'Output file name', 'analysis_output.txt')
@@ -236,4 +236,7 @@ async function main() {
     }
 }
 
-main();
+// This allows the script to be run directly as well
+if (import.meta.url === `file://${process.argv[1]}`) {
+    main();
+}
